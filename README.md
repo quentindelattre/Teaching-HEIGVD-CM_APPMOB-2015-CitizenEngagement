@@ -39,6 +39,8 @@ The completed skeleton app is available [here](https://github.com/SoftEng-HEIGVD
 
 These instructions assume that you have implemented and deployed the Citizen Engagement API as described in [this article](http://www.iflux.io/use-case/2015/02/03/citizen-engagement.html) and [this course repository](https://github.com/SoftEng-HEIGVD/Teaching-HEIGVD-CM_WEBS).
 
+You will need to have [Node.js](https://nodejs.org) installed.
+
 <a href="#top">Back to top</a>
 
 
@@ -106,7 +108,7 @@ Now that we know what we want, we can start setting up the app!
 
 ![Fork](setup/github-fork.png)
 
-*Do not* clone the repo on your machine yet.
+**Do not** clone the repo on your machine yet.
 Unfortunately, Ionic cannot generate a new application into an existing directory, so you'll have to generate the app first, then make it a Git repository.
 
 Make sure you have Ionic and Cordova installed:
@@ -1065,7 +1067,7 @@ var replace = require('gulp-replace');
 
 Now add the task (still in `gulpfile.js`):
 
-```
+```js
 function saveConfig(environment) {
 
   var config = require('./config/' + environment + '.json');
