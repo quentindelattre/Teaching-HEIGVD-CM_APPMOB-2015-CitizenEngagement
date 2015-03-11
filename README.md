@@ -151,6 +151,10 @@ Install development tools with:
 
 [npm](https://www.npmjs.com) reads the list of dependencies to install from `package.json`.
 
+Make sure you have Bower installed (you might need to run this command with `sudo`):
+
+    npm install -g bower
+
 Install application libraries with:
 
     bower install
