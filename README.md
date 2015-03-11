@@ -48,7 +48,7 @@ You will need to have [Node.js](https://nodejs.org) installed.
 <a name="features"></a>
 ## Features
 
-The app should allow citizens to do the following:
+The proposed app should allow citizens to do the following:
 
 * add new issues:
   * the issue should have a type and description;
